@@ -1,0 +1,48 @@
+package br.com.ExemploJDBC.model;
+
+public class Course {
+	/*
+	CREATE TABLE COURSE(
+		    COURSE_ID INT PRIMARY KEY AUTO_INCREMENT,
+		    TITLE VARCHAR(50) NOT NULL,
+		    DEPT_ID INT NOT NULL,
+		    CREDIT DOUBLE NOT NULL,
+		    FOREIGN KEY (DEPT_ID) REFERENCES DEPARTMENT(DEPT_ID)
+		);
+	*/
+	
+	private int idCourse;
+	private String title;
+	private int idDept;
+	private double credit;
+	public int getIdCourse() {
+		return idCourse;
+	}
+	public void setIdCourse(int idCourse) {
+		this.idCourse = idCourse;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public int getIdDept() {
+		return idDept;
+	}
+	public void setIdDept(int idDept) {
+		this.idDept = idDept;
+	}
+	public double getCredit() {
+		return credit;
+	}
+	public void setCredit(double credit) {
+		this.credit = credit;
+	}
+	
+	
+	
+	
+	
+
+}
