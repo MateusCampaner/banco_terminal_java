@@ -10,7 +10,7 @@ public abstract class AbstractCRUD<T> {
 	private final String URL = "jdbc:postgresql://localhost/escola";
 	//jdbc:oracle:thin:@hostname:port Number:databaseName
 	private final String USER = "postgres";
-	private final String PASSWORD = "piroca";
+	private final String PASSWORD = "root";
 	
 	protected Connection connection;
 
