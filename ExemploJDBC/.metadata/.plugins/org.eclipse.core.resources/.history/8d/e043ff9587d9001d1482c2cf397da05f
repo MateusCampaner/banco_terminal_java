@@ -1,5 +1,0 @@
-package br.com.ExemploJDBC.controller;
-
-public class CRUDCourse {
-
-}
