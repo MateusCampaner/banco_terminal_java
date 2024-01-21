@@ -1,4 +1,4 @@
-# banco_edisom
+# banco_terminal_java
 
 1. Abra o projeto na IDE Eclipse
 
